@@ -1,0 +1,1 @@
+select distinct property_type from {{ ref('stg_listings') }}\n

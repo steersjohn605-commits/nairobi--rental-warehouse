@@ -1,0 +1,12 @@
+rentals:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: db
+      user: portfolio
+      password: portfolio
+      port: 5432
+      dbname: rentals
+      schema: analytics
+      threads: 4

@@ -1,0 +1,1 @@
+select listing_id from {{ ref('stg_listings') }} where monthly_rent_kes > 1000000\n

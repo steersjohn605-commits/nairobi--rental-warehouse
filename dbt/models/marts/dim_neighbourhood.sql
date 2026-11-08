@@ -1,0 +1,1 @@
+select distinct neighbourhood from {{ ref('stg_listings') }}\n

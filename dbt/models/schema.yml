@@ -1,0 +1,14 @@
+version: 2
+models:
+  - name: stg_listings
+    columns:
+      - name: listing_id
+        tests: [not_null, unique]
+      - name: neighbourhood
+        tests: [not_null]
+      - name: monthly_rent_kes
+        tests: [not_null]
+  - name: fct_rental_listing
+    columns:
+      - name: listing_id
+        tests: [not_null, unique]
